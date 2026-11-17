@@ -18,11 +18,22 @@ Calculée à l'ouverture de la page (dans `script.js`, donc toujours à jour) :
 | Sorti il y a plus de 3 mois | date masquée |
 | Fiche « Early Access » / « Upcoming » | libellé adapté : *Accès anticipé* / *Sortie prévue* |
 
+## Prix
+
+- **Prix Steam** : relevé via l'API publique du Steam Store (boutique française, EUR), avec le
+  prix barré et la remise quand il y en a une. Chaque prix renvoie vers la fiche Steam du jeu.
+- **gg.deals** : chaque carte contient un lien vers la recherche du jeu sur gg.deals, qui compare
+  les prix de toutes les boutiques. gg.deals bloque les accès automatisés (403 Cloudflare et
+  `robots.txt` interdisant les crawlers), les prix les moins chers ne sont donc pas récupérés ici.
+
+Les prix sont un relevé daté, ils changent souvent.
+
 ## Fonctionnalités
 
 - grille responsive, thème sombre
 - recherche instantanée par titre
 - tri : ordre de la liste / date de sortie / titre (avec inversion du sens)
+- prix Steam + lien gg.deals par jeu
 
 ## Fichiers
 

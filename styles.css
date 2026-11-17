@@ -129,6 +129,58 @@ a:hover { color: var(--accent-soft); }
   font-size: 0.85rem;
 }
 
+/* ---------- Prix ---------- */
+.prices {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 8px 0 2px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+  font-size: 0.8rem;
+}
+.price-line {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.35;
+  color: var(--text);
+  text-decoration: none;
+}
+.price-line:hover { color: var(--accent-soft); }
+.price-line .store {
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  min-width: 44px;
+}
+.price-line .amount { font-weight: 700; }
+.price-line .amount.free { color: #6fcf97; }
+.price-line.muted, .price-line.muted .amount { color: var(--muted); font-weight: 500; }
+.price-line s {
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-decoration: line-through;
+}
+.price-line .off {
+  font-style: normal;
+  font-size: 0.66rem;
+  font-weight: 800;
+  color: #6fcf97;
+  background: rgba(111, 207, 151, 0.12);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+.price-line.gg {
+  font-size: 0.74rem;
+  color: var(--accent-soft);
+  opacity: 0.85;
+}
+.price-line.gg:hover { opacity: 1; text-decoration: underline; }
+.price-line.gg .ext { font-size: 0.7rem; }
+
 /* ---------- Légende ---------- */
 .legend {
   display: flex;
