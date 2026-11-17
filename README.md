@@ -35,6 +35,7 @@ Les prix sont un relevé daté, ils changent souvent.
 - tri : ordre de la liste / date de sortie / titre (avec inversion du sens)
 - prix Steam + lien gg.deals par jeu
 - tags de genre par jeu (traduits en français)
+- clic sur une carte = ouverture de la fiche Steam du jeu (liens gg.deals et Backloggd conservés à l'intérieur)
 
 ## Fichiers
 
