@@ -34,6 +34,7 @@ Les prix sont un relevé daté, ils changent souvent.
 - recherche instantanée par titre
 - tri : ordre de la liste / date de sortie / titre (avec inversion du sens)
 - prix Steam + lien gg.deals par jeu
+- tags de genre par jeu (traduits en français)
 
 ## Fichiers
 

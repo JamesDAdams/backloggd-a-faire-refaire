@@ -129,6 +129,27 @@ a:hover { color: var(--accent-soft); }
   font-size: 0.85rem;
 }
 
+/* ---------- Tags de genre ---------- */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 2px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.tag {
+  font-size: 0.66rem;
+  line-height: 1.6;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: rgba(177, 98, 134, 0.12);
+  border: 1px solid rgba(177, 98, 134, 0.35);
+  color: var(--accent-soft);
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+}
+
 /* ---------- Prix ---------- */
 .prices {
   display: flex;
