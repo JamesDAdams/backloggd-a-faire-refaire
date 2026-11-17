@@ -1,0 +1,362 @@
+:root {
+  --bg: #0e1014;
+  --bg-soft: #161a21;
+  --card: #1b2029;
+  --line: #262c37;
+  --text: #e8eaee;
+  --muted: #98a2b3;
+  --accent: #b16286;
+  --accent-soft: #d38cab;
+  --radius: 12px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: radial-gradient(1200px 600px at 50% -200px, #1d2430 0%, var(--bg) 60%) no-repeat, var(--bg);
+  color: var(--text);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--accent-soft); }
+
+/* ---------- Header ---------- */
+.site-header {
+  padding: 56px 0 28px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+}
+
+.site-header h1 {
+  margin: 0 0 12px;
+  font-size: clamp(1.9rem, 4.5vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+}
+
+.meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.meta a { color: var(--text); border-bottom: 1px solid var(--line); }
+.meta a:hover { color: var(--accent-soft); border-color: var(--accent-soft); }
+.meta .dot { margin: 0 8px; opacity: 0.5; }
+
+/* ---------- Toolbar ---------- */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.search { flex: 1 1 260px; }
+.search input {
+  width: 100%;
+  padding: 11px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+  color: var(--text);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color .15s ease, background .15s ease;
+}
+.search input::placeholder { color: var(--muted); }
+.search input:focus { border-color: var(--accent); background: #12161c; }
+
+.sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.sort label { white-space: nowrap; }
+.sort select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+  color: var(--text);
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+}
+.sort select:focus { border-color: var(--accent); }
+
+.dir {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+  color: var(--text);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color .15s ease, transform .15s ease;
+}
+.dir:hover { border-color: var(--accent); }
+.dir.flip { transform: rotate(180deg); }
+
+.count {
+  margin: 6px 0 22px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* ---------- Légende ---------- */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin: 0 0 24px;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.legend-item { display: inline-flex; align-items: center; gap: 7px; }
+.legend-swatch {
+  display: inline-block;
+  width: 10px; height: 10px;
+  border-radius: 3px;
+}
+.legend-swatch.old { background: #39404d; }
+.legend-swatch.recent { background: var(--accent-soft); }
+.legend-swatch.nodate {
+  width: auto; height: auto;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(12, 15, 20, 0.82);
+  border: 1px solid #4a5361;
+  color: #d7dce4;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.legend-swatch.soon {
+  width: auto; height: auto;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ---------- Grid ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 22px 18px;
+  padding-bottom: 40px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #3a4250;
+  box-shadow: 0 14px 30px rgba(0,0,0,.45);
+}
+
+.cover {
+  position: relative;
+  display: block;
+  aspect-ratio: 264 / 352;
+  background: #10141a;
+  overflow: hidden;
+}
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .35s ease, opacity .3s ease;
+  opacity: 0;
+}
+.cover img.loaded, .cover img[src] { opacity: 1; }
+.card:hover .cover img { transform: scale(1.04); }
+
+.rank {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 6px;
+  background: rgba(10,12,16,.78);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+}
+
+/* Bandeau « Soon » : jeux pas encore sortis (angle haut-gauche de la jaquette) */
+.soon-badge {
+  display: none;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 14px rgba(177, 98, 134, 0.55);
+}
+.card.is-soon .soon-badge { display: inline-flex; align-items: center; gap: 5px; }
+.card.is-soon .soon-badge::before {
+  content: "";
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+
+/* Encart « No date » : aucune date de sortie connue (angle haut-gauche de la jaquette) */
+.no-date-badge {
+  display: none;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: rgba(12, 15, 20, 0.82);
+  border: 1px solid #4a5361;
+  color: #d7dce4;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  backdrop-filter: blur(4px);
+}
+.card.is-nodate .no-date-badge { display: inline-flex; align-items: center; gap: 5px; }
+.card.is-nodate .no-date-badge::before {
+  content: "?";
+  display: grid;
+  place-items: center;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: #4a5361;
+  color: #fff;
+  font-size: 0.55rem;
+  font-weight: 900;
+}
+/* une carte sans date garde la ligne « Date non annoncée » visible */
+.card.is-nodate .release .label { color: var(--muted); }
+
+/* Sorti depuis plus de 3 mois : la date de sortie est masquée */
+.card.is-old .release { display: none; }
+
+.card-body {
+  padding: 12px 13px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+.title a:hover { color: var(--accent-soft); }
+
+.release {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--text);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: baseline;
+}
+.release .label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--accent-soft);
+  font-weight: 700;
+}
+.approx { color: var(--muted); font-size: 0.78rem; }
+.tba { color: var(--muted); }
+
+.firms {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: auto;
+  padding-top: 4px;
+}
+
+.empty {
+  padding: 60px 0;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 26px 0 40px;
+  margin-top: 20px;
+}
+.site-footer p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+  max-width: 80ch;
+}
+.site-footer a { color: var(--text); }
+.site-footer a:hover { color: var(--accent-soft); }
+
+@media (max-width: 560px) {
+  .site-header { padding-top: 36px; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px 12px; }
+  .toolbar { gap: 10px; }
+  .sort { width: 100%; justify-content: space-between; }
+}
