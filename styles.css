@@ -195,13 +195,11 @@ a:hover { color: var(--accent-soft); }
   padding: 1px 5px;
   border-radius: 4px;
 }
-.price-line.gg {
-  font-size: 0.74rem;
-  color: var(--accent-soft);
-  opacity: 0.85;
-}
-.price-line.gg:hover { opacity: 1; text-decoration: underline; }
-.price-line.gg .ext { font-size: 0.7rem; }
+.price-line.key .amount { color: #6fcf97; }
+.price-line.key .store { color: #6fcf97; opacity: 0.85; }
+.price-line.key:hover .amount { text-decoration: underline; }
+.price-line.key.muted .amount { color: var(--muted); font-weight: 500; }
+.price-line.key.muted .store { color: var(--muted); }
 
 /* ---------- Légende ---------- */
 .legend {

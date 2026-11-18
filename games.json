@@ -1,0 +1,849 @@
+[
+  {
+    "slug": "dying-light",
+    "title": "Dying Light",
+    "release": "Jan 26, 2015",
+    "kind": "Released",
+    "year": "2015",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65yq.jpg",
+    "companies": [
+      "Techland",
+      "WB Games",
+      "Techland"
+    ],
+    "appid": 239140,
+    "steam_name": "Dying Light",
+    "steam": {
+      "appid": 239140,
+      "name": "Dying Light",
+      "free": false,
+      "available": true,
+      "price": 24.99,
+      "initial": 24.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Shooter"
+    ],
+    "gg": {
+      "title": "Dying Light",
+      "url": "https://gg.deals/game/dying-light/",
+      "currency": "EUR",
+      "keyshop": 1.84,
+      "retail": 4.49,
+      "best": 1.84
+    }
+  },
+  {
+    "slug": "dying-light-2-stay-human",
+    "title": "Dying Light 2: Stay Human",
+    "release": "Feb 03, 2022",
+    "kind": "Released",
+    "year": "2022",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65yk.jpg",
+    "companies": [
+      "Techland",
+      "Spike Chunsoft",
+      "Techland"
+    ],
+    "appid": 534380,
+    "steam_name": "Dying Light 2 Stay Human: Reloaded Edition",
+    "steam": {
+      "appid": 534380,
+      "name": "Dying Light 2 Stay Human: Reloaded Edition",
+      "free": false,
+      "available": true,
+      "price": 59.99,
+      "initial": 59.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "RPG"
+    ],
+    "gg": {
+      "title": "Dying Light 2 Stay Human: Reloaded Edition",
+      "url": "https://gg.deals/game/dying-light-2/",
+      "currency": "EUR",
+      "keyshop": 6.36,
+      "retail": 12.0,
+      "best": 6.36
+    }
+  },
+  {
+    "slug": "dying-light-the-beast",
+    "title": "Dying Light: The Beast",
+    "release": "Sep 18, 2025",
+    "kind": "Released",
+    "year": "2025",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocmja.jpg",
+    "companies": [
+      "Techland",
+      "Techland"
+    ],
+    "appid": 3008130,
+    "steam_name": "Dying Light: The Beast",
+    "steam": {
+      "appid": 3008130,
+      "name": "Dying Light: The Beast",
+      "free": false,
+      "available": true,
+      "price": 59.99,
+      "initial": 59.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "RPG"
+    ],
+    "gg": {
+      "title": "Dying Light: The Beast",
+      "url": "https://gg.deals/game/dying-light-the-beast/",
+      "currency": "EUR",
+      "keyshop": 18.82,
+      "retail": 29.99,
+      "best": 18.82
+    }
+  },
+  {
+    "slug": "dead-island-2",
+    "title": "Dead Island 2",
+    "release": "Apr 21, 2023",
+    "kind": "Released",
+    "year": "2023",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5469.jpg",
+    "companies": [
+      "Dambuster Studios",
+      "Deep Silver",
+      "Dambuster Studios"
+    ],
+    "appid": 934700,
+    "steam_name": "Dead Island 2",
+    "steam": {
+      "appid": 934700,
+      "name": "Dead Island 2",
+      "free": false,
+      "available": true,
+      "price": 49.99,
+      "initial": 49.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Brawler",
+      "RPG",
+      "Shooter"
+    ],
+    "gg": {
+      "title": "Dead Island 2",
+      "url": "https://gg.deals/game/dead-island-2/",
+      "currency": "EUR",
+      "keyshop": 4.29,
+      "retail": 4.54,
+      "best": 4.29
+    }
+  },
+  {
+    "slug": "no-more-room-in-hell-2",
+    "title": "No More Room in Hell 2",
+    "release": "Aug 11, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zli.jpg",
+    "companies": [
+      "Torn Banner Studios",
+      "Green Man Gaming Publishing",
+      "Torn Banner Studios"
+    ],
+    "appid": 292000,
+    "steam_name": "No More Room in Hell 2",
+    "steam": {
+      "appid": 292000,
+      "name": "No More Room in Hell 2",
+      "free": false,
+      "available": true,
+      "price": 28.99,
+      "initial": 28.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Indie",
+      "Shooter"
+    ],
+    "gg": {
+      "title": "No More Room in Hell 2",
+      "url": "https://gg.deals/game/no-more-room-in-hell-2/",
+      "currency": "EUR",
+      "keyshop": 11.73,
+      "retail": 21.94,
+      "best": 11.73
+    }
+  },
+  {
+    "slug": "out-of-the-shadows",
+    "title": "Out of the Shadows",
+    "release": "Oct 20, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9sia.jpg",
+    "companies": [
+      "Lobster Games",
+      "Lobster Games"
+    ],
+    "appid": 3506830,
+    "steam_name": "Out of the Shadows",
+    "steam": {
+      "appid": 3506830,
+      "name": "Out of the Shadows",
+      "free": false,
+      "available": true,
+      "price": 7.79,
+      "initial": 7.79,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Puzzle"
+    ],
+    "gg": {
+      "title": "Out of the Shadows",
+      "url": "https://gg.deals/game/out-of-the-shadows/",
+      "currency": "EUR",
+      "keyshop": 4.09,
+      "retail": 7.79,
+      "best": 4.09
+    }
+  },
+  {
+    "slug": "deep-dish-dungeon",
+    "title": "Deep Dish Dungeon",
+    "release": "Oct 13, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9fh8.jpg",
+    "companies": [
+      "Behold Studios",
+      "Raw Fury",
+      "Behold Studios"
+    ],
+    "appid": 2871520,
+    "steam_name": "Deep Dish Dungeon",
+    "steam": {
+      "appid": 2871520,
+      "name": "Deep Dish Dungeon",
+      "free": false,
+      "available": true,
+      "price": 14.99,
+      "initial": 14.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Indie",
+      "RPG",
+      "Strategy"
+    ],
+    "gg": {
+      "title": "Deep Dish Dungeon",
+      "url": "https://gg.deals/game/deep-dish-dungeon/",
+      "currency": "EUR",
+      "keyshop": 9.94,
+      "retail": 11.62,
+      "best": 9.94
+    }
+  },
+  {
+    "slug": "dual-protocol-the-case-of-eva-and-miles",
+    "title": "Dual Protocol: The Case of Eva & Miles",
+    "release": "Oct 02, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocwn8.jpg",
+    "companies": [
+      "Aegean Crafters",
+      "Rock Paper Publisher",
+      "Aegean Crafters"
+    ],
+    "appid": 4660280,
+    "steam_name": "DUAL PROTOCOL: The Case of Eva & Miles",
+    "steam": {
+      "appid": 4660280,
+      "name": "DUAL PROTOCOL: The Case of Eva & Miles",
+      "free": false,
+      "available": true,
+      "price": 9.19,
+      "initial": 9.19,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Point-and-Click",
+      "Puzzle"
+    ],
+    "gg": {
+      "title": "DUAL PROTOCOL: The Case of Eva & Miles",
+      "url": "https://gg.deals/game/dual-protocol-the-case-of-eva-miles/",
+      "currency": "EUR",
+      "keyshop": 4.82,
+      "retail": 9.19,
+      "best": 4.82
+    }
+  },
+  {
+    "slug": "united-heist-facility-zero",
+    "title": "United Heist: Facility Zero",
+    "release": "Sep 17, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobdkk.jpg",
+    "companies": [
+      "No more Sleep",
+      "No more Sleep"
+    ],
+    "appid": 3387160,
+    "steam_name": "United Heist: Facility Zero",
+    "steam": {
+      "appid": 3387160,
+      "name": "United Heist: Facility Zero",
+      "free": false,
+      "available": true,
+      "price": 6.99,
+      "initial": 6.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Puzzle"
+    ],
+    "gg": {
+      "title": "United Heist: Facility Zero",
+      "url": "https://gg.deals/game/united-heist-facility-zero/",
+      "currency": "EUR",
+      "keyshop": null,
+      "retail": 6.99,
+      "best": 6.99
+    }
+  },
+  {
+    "slug": "escape-from-crimson-manor-trapped-together",
+    "title": "Escape From Crimson Manor: Trapped Together",
+    "release": "May 28, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod7br.jpg",
+    "companies": [
+      "MediaCity Games",
+      "MediaCity Games"
+    ],
+    "appid": 2345430,
+    "steam_name": "Escape From Crimson Manor: Trapped Together",
+    "steam": {
+      "appid": 2345430,
+      "name": "Escape From Crimson Manor: Trapped Together",
+      "free": false,
+      "available": true,
+      "price": 13.49,
+      "initial": 13.49,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "gg": {
+      "title": "Escape From Crimson Manor: Trapped Together",
+      "url": "https://gg.deals/game/escape-from-crimson-manor-trapped-together/",
+      "currency": "EUR",
+      "keyshop": null,
+      "retail": 13.49,
+      "best": 13.49
+    }
+  },
+  {
+    "slug": "inkwellers",
+    "title": "Inkwellers",
+    "release": "May 28, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gmo.jpg",
+    "companies": [
+      "Scrumptious Sprouts",
+      "Scrumptious Sprouts"
+    ],
+    "appid": 3061390,
+    "steam_name": "Inkwellers",
+    "steam": {
+      "appid": 3061390,
+      "name": "Inkwellers",
+      "free": false,
+      "available": true,
+      "price": 10.25,
+      "initial": 10.25,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Puzzle"
+    ],
+    "gg": {
+      "title": "Inkwellers",
+      "url": "https://gg.deals/game/inkwellers/",
+      "currency": "EUR",
+      "keyshop": null,
+      "retail": 10.25,
+      "best": 10.25
+    }
+  },
+  {
+    "slug": "directive-8020",
+    "title": "Directive 8020",
+    "release": "May 12, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8t96.jpg",
+    "companies": [
+      "Supermassive Games",
+      "Bandai Namco Entertainment",
+      "Supermassive Games"
+    ],
+    "appid": 2255370,
+    "steam_name": "Directive 8020",
+    "steam": {
+      "appid": 2255370,
+      "name": "Directive 8020",
+      "free": false,
+      "available": true,
+      "price": 49.99,
+      "initial": 49.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure"
+    ],
+    "gg": {
+      "title": "Directive 8020",
+      "url": "https://gg.deals/game/directive-8020/",
+      "currency": "EUR",
+      "keyshop": 29.26,
+      "retail": 38.7,
+      "best": 29.26
+    }
+  },
+  {
+    "slug": "dont-panic-it-is-just-turbulence",
+    "title": "Don't Panic! It Is Just Turbulence",
+    "release": "May 11, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjqd.jpg",
+    "companies": [],
+    "appid": 4187140,
+    "steam_name": "Don't Panic! It is Just Turbulence",
+    "steam": {
+      "appid": 4187140,
+      "name": "Don't Panic! It is Just Turbulence",
+      "free": false,
+      "available": true,
+      "price": 8.15,
+      "initial": 8.15,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Indie",
+      "Puzzle"
+    ],
+    "gg": {
+      "title": "Don't Panic! It is Just Turbulence",
+      "url": "https://gg.deals/game/dont-panic-it-is-just-a-turbulence/",
+      "currency": "EUR",
+      "keyshop": 6.22,
+      "retail": 8.15,
+      "best": 6.22
+    }
+  },
+  {
+    "slug": "devil-of-the-plague",
+    "title": "Devil of the Plague",
+    "release": "May 01, 2026",
+    "kind": "Early Access",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocdoe.jpg",
+    "companies": [
+      "SoulByte Games",
+      "SoulByte Games"
+    ],
+    "appid": 3429890,
+    "steam_name": "Devil of the Plague",
+    "steam": {
+      "appid": 3429890,
+      "name": "Devil of the Plague",
+      "free": false,
+      "available": true,
+      "price": 9.49,
+      "initial": 9.49,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Fighting",
+      "Indie",
+      "Strategy"
+    ],
+    "gg": {
+      "title": "Devil of the Plague",
+      "url": "https://gg.deals/game/devil-of-the-plague/",
+      "currency": "EUR",
+      "keyshop": 13.81,
+      "retail": 9.49,
+      "best": 9.49
+    }
+  },
+  {
+    "slug": "reanimal",
+    "title": "Reanimal",
+    "release": "Feb 13, 2026",
+    "kind": "Released",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc21i.jpg",
+    "companies": [
+      "Tarsier Studios",
+      "THQ Nordic",
+      "Tarsier Studios"
+    ],
+    "appid": 2129530,
+    "steam_name": "REANIMAL",
+    "steam": {
+      "appid": 2129530,
+      "name": "REANIMAL",
+      "free": false,
+      "available": true,
+      "price": 39.99,
+      "initial": 39.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "gg": {
+      "title": "REANIMAL",
+      "url": "https://gg.deals/game/reanimal/",
+      "currency": "EUR",
+      "keyshop": 17.38,
+      "retail": 23.21,
+      "best": 17.38
+    }
+  },
+  {
+    "slug": "species-unknown",
+    "title": "Species: Unknown",
+    "release": "Oct 23, 2025",
+    "kind": "Early Access",
+    "year": "2025",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9v28.jpg",
+    "companies": [
+      "WanadevStudio",
+      "WanadevStudio"
+    ],
+    "appid": 2747330,
+    "steam_name": "Species: Unknown",
+    "steam": {
+      "appid": 2747330,
+      "name": "Species: Unknown",
+      "free": false,
+      "available": true,
+      "price": 9.75,
+      "initial": 9.75,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Indie",
+      "Shooter"
+    ],
+    "gg": {
+      "title": "Species: Unknown",
+      "url": "https://gg.deals/game/species-unknown/",
+      "currency": "EUR",
+      "keyshop": 11.47,
+      "retail": 9.75,
+      "best": 9.75
+    }
+  },
+  {
+    "slug": "sker-ritual",
+    "title": "Sker Ritual",
+    "release": "Apr 18, 2024",
+    "kind": "Released",
+    "year": "2024",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5p5v.jpg",
+    "companies": [
+      "Wales Interactive",
+      "Skybound Entertainment",
+      "Wales Interactive"
+    ],
+    "appid": 1492070,
+    "steam_name": "Sker Ritual",
+    "steam": {
+      "appid": 1492070,
+      "name": "Sker Ritual",
+      "free": false,
+      "available": true,
+      "price": 19.99,
+      "initial": 19.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Indie",
+      "Shooter"
+    ],
+    "gg": {
+      "title": "Sker Ritual",
+      "url": "https://gg.deals/game/sker-ritual/",
+      "currency": "EUR",
+      "keyshop": 1.85,
+      "retail": 19.99,
+      "best": 1.85
+    }
+  },
+  {
+    "slug": "tom-clancys-the-division-2",
+    "title": "Tom Clancy's The Division 2",
+    "release": "Mar 15, 2019",
+    "kind": "Released",
+    "year": "2019",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrm.jpg",
+    "companies": [
+      "Massive Entertainment",
+      "Ubisoft Entertainment",
+      "Massive Entertainment"
+    ],
+    "appid": 2221490,
+    "steam_name": "Tom Clancy's The Division 2 – Activation Bundle",
+    "steam": {
+      "appid": 2221490,
+      "name": "Tom Clancy’s The Division® 2",
+      "free": false,
+      "available": true,
+      "price": 29.99,
+      "initial": 29.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Shooter",
+      "Tactical"
+    ],
+    "gg": {
+      "title": "Tom Clancy's The Division 2",
+      "url": "https://gg.deals/game/tom-clancys-the-division-2/",
+      "currency": "EUR",
+      "keyshop": 4.15,
+      "retail": 6.0,
+      "best": 4.15
+    }
+  },
+  {
+    "slug": "warhammer-40000-darktide",
+    "title": "Warhammer 40,000: Darktide",
+    "release": "Nov 30, 2022",
+    "kind": "Released",
+    "year": "2022",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5j6u.jpg",
+    "companies": [
+      "Fatshark",
+      "Fatshark"
+    ],
+    "appid": 1361210,
+    "steam_name": "Warhammer 40,000: Darktide",
+    "steam": {
+      "appid": 1361210,
+      "name": "Warhammer 40,000: Darktide",
+      "free": false,
+      "available": true,
+      "price": 39.99,
+      "initial": 39.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Indie",
+      "RPG",
+      "Shooter"
+    ],
+    "gg": {
+      "title": "Warhammer 40,000: Darktide",
+      "url": "https://gg.deals/game/warhammer-40000-darktide/",
+      "currency": "EUR",
+      "keyshop": 6.56,
+      "retail": 10.0,
+      "best": 6.56
+    }
+  },
+  {
+    "slug": "first-class-escape-the-train-of-thought",
+    "title": "First Class Escape: The Train of Thought",
+    "release": "Sep 17, 2021",
+    "kind": "Released",
+    "year": "2021",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5o3e.jpg",
+    "companies": [
+      "0 Deer Soft",
+      "0 Deer Soft"
+    ],
+    "appid": 1738610,
+    "steam_name": "First Class Escape: The Train of Thought",
+    "steam": {
+      "appid": 1738610,
+      "name": "First Class Escape: The Train of Thought",
+      "free": false,
+      "available": true,
+      "price": 5.99,
+      "initial": 5.99,
+      "discount": 0,
+      "currency": "EUR"
+    },
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "gg": {
+      "title": "First Class Escape: The Train of Thought",
+      "url": "https://gg.deals/game/first-class-escape-the-train-of-thought/",
+      "currency": "EUR",
+      "keyshop": null,
+      "retail": 5.99,
+      "best": 5.99
+    }
+  },
+  {
+    "slug": "did-you-see-that",
+    "title": "Did You See That?",
+    "release": "Dec 07, 2026",
+    "kind": "Upcoming",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocug4.jpg",
+    "companies": [
+      "Ashen Studios",
+      "Ashen Studios"
+    ],
+    "appid": 4830110,
+    "steam_name": "Did You See That?",
+    "steam": {
+      "appid": 4830110,
+      "name": "Did You See That?",
+      "free": false,
+      "available": false,
+      "price": null,
+      "initial": null,
+      "discount": 0
+    },
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Puzzle",
+      "Simulator"
+    ],
+    "gg": {
+      "title": "Did You See That?",
+      "url": "https://gg.deals/game/did-you-see-that/",
+      "currency": "EUR",
+      "keyshop": null,
+      "retail": null,
+      "best": null
+    }
+  },
+  {
+    "slug": "hela-of-mice-and-magic",
+    "title": "Hela: Of Mice & Magic",
+    "release": "Dec 01, 2026",
+    "kind": "Upcoming",
+    "year": "2026",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod34q.jpg",
+    "companies": [
+      "Windup Games",
+      "Knights Peak",
+      "Windup Games"
+    ],
+    "appid": 3161310,
+    "steam_name": "Hela: of Mice & Magic",
+    "steam": {
+      "appid": 3161310,
+      "name": "Hela: of Mice & Magic",
+      "free": false,
+      "available": false,
+      "price": null,
+      "initial": null,
+      "discount": 0
+    },
+    "genres": [
+      "Adventure"
+    ],
+    "gg": {
+      "title": "Hela: of Mice & Magic",
+      "url": "https://gg.deals/game/hela/",
+      "currency": "EUR",
+      "keyshop": null,
+      "retail": null,
+      "best": null
+    }
+  },
+  {
+    "slug": "the-missing-tail",
+    "title": "The Missing Tail",
+    "release": null,
+    "kind": "Upcoming",
+    "year": null,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocwk2.jpg",
+    "companies": [
+      "Estoty Games",
+      "Estoty Games"
+    ],
+    "appid": 4096780,
+    "steam_name": "The Missing Tail",
+    "steam": {
+      "appid": 4096780,
+      "name": "The Missing Tail",
+      "free": false,
+      "available": false,
+      "price": null,
+      "initial": null,
+      "discount": 0
+    },
+    "genres": [
+      "Adventure"
+    ],
+    "gg": {
+      "title": "The Missing Tail",
+      "url": "https://gg.deals/game/the-missing-tail/",
+      "currency": "EUR",
+      "keyshop": null,
+      "retail": null,
+      "best": null
+    }
+  }
+]

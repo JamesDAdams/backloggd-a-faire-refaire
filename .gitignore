@@ -1,2 +1,5 @@
 .DS_Store
 covers/
+.ggdeals.key
+_ggchunk_*
+*.part
